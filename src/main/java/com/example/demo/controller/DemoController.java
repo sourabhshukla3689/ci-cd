@@ -8,7 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @RestController
 public class DemoController {
-
+//new project
     @GetMapping("/api/status")
     public String getStatus() {
         log.info("Status endpoint called");
